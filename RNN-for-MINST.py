@@ -4,7 +4,7 @@ import tensorflow as tf
 from tensorflow.examples.tutorials.mnist import input_data
 
 import os
-os.environ['CUDA_VISIBLE_DEVICES'] = '7'
+#os.environ['CUDA_VISIBLE_DEVICES'] = '5, 6, 7'
 
 n_steps = 28
 n_inputs= 28
