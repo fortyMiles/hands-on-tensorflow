@@ -3,6 +3,9 @@ from tensorflow.contrib import rnn
 import tensorflow as tf
 from tensorflow.examples.tutorials.mnist import input_data
 
+import os
+os.environ['CUDA_VISIBLE_DEVICES'] = '7'
+
 n_steps = 28
 n_inputs= 28
 n_neurons = 150
